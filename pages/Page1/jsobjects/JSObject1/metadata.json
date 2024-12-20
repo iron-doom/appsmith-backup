@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6765b13b4c41d56b24aa8c24_b34ed410-a4d2-4dc7-bae5-b5e1422b7122",
+  "id": "Page1_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "data",
+        "value": "{\n  assessment_Name: assessmentName.text,\n  assessment_des: assessmentDescription.text,\n  assessment_nature: natureOfAssessment.text,\n  assessment_level: assessmentLevel.selectedOptionValue,\n  assessment_status: status.selectedOptionValue,\n  assessment_category: assessmentCategory.text,\n  assessment_is_hot: isHotAssessment.selectedOptionValue,\n  assessment_priority: priority.text,\n  assessment_qustion_type: questionsType.selectedOptionValue,\n  assessment_ext: extensionId.text,\n  assessment_skillIds: skillIds.text,\n  assessment_fullScreen: enableFullScreen.selectedOptionValue,\n  assessment_access_type: accessType.selectedOptionValue,\n  assessment_table_prohibited_url: Table_prohibited_urls.tableData,\n  assessment_instruction_form: instruction.formData,\n  assessment_section_selected: Tab.selectedTab,\n  assessment_section_questionIds: questionIds_table.tableData,\n  assessment_section_questionBankID_Pool: questionBankId.text,\n  assessment_section_numberOfQuestion_pool: numberOfQuestion.text,\n  assessment_section_queryList_pool: queryList.tableData,\n  assessment_section_sectionList: Section_data.formData\n}"
+      }
+    ]
+  }
+}
