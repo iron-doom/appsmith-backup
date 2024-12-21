@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6765d7414c41d56b24aa8c3d_b77fd0a7-dc59-4c6d-a03c-6b99166a30b3",
+  "id": "Page1_Api_caller",
+  "unpublishedCollection": {
+    "name": "Api_caller",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

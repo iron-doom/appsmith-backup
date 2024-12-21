@@ -23,7 +23,7 @@
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "h6ucw3kz7j",
   "labelAlignment": "left",
