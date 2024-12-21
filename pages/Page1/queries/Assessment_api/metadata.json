@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6765b13b4c41d56b24aa8c24_a5739081-53e7-4f1d-b519-ac523f14f2c8",
-  "id": "Page1_Api1",
+  "id": "Page1_Assessment_api",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{JSObject1.data}}",
+      "body": "{{data_mapper.trustMe.data}}",
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
@@ -51,7 +51,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Api1",
+    "name": "Assessment_api",
     "pageId": "Page1",
     "userSetOnLoad": false
   }

@@ -4,13 +4,13 @@
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": 1,
-  "bottomRow": 378,
+  "borderWidth": "2",
+  "bottomRow": 458,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 360,
+      "bottomRow": 1980,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -56,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 430,
+      "bottomRow": 1980,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -93,7 +93,7 @@
       "rightColumn": 161.25,
       "shouldScrollContents": false,
       "tabId": "tab2",
-      "tabName": "WithoutSection & No Pool",
+      "tabName": "Pool_config&No_Section",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -102,7 +102,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 790,
+      "bottomRow": 1980,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -174,8 +174,8 @@
   "mobileRightColumn": 8,
   "mobileTopRow": 259,
   "needsErrorInfo": false,
-  "originalBottomRow": 377,
-  "originalTopRow": 337,
+  "originalBottomRow": 458,
+  "originalTopRow": 255,
   "parentColumnSpace": 20.15625,
   "parentId": "0loay80t01",
   "parentRowSpace": 10,
@@ -197,7 +197,7 @@
       "id": "tab2",
       "index": 1,
       "isVisible": true,
-      "label": "WithoutSection & No Pool",
+      "label": "Pool_config&No_Section",
       "positioning": "vertical",
       "widgetId": "tup2apbdv2"
     },
@@ -209,7 +209,7 @@
       "widgetId": "qzn1h70afo"
     }
   },
-  "topRow": 338,
+  "topRow": 255,
   "type": "TABS_WIDGET",
   "version": 3,
   "widgetId": "4m4l0scvyb",

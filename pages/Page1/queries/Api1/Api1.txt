@@ -1,1 +1,0 @@
-{{JSObject1.data}}

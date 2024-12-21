@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 480,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "m2937q7tx5",
+  "leftColumn": 48,
+  "minWidth": 120,
+  "mobileBottomRow": 370,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 366,
+  "needsErrorInfo": false,
+  "onClick": "{{Button2.setDisabled(false).then(Button2.setLabel(\"Submit\")).then(dynamictext.setText(\"Please Confirm !!\")).then (showModal(Modal1.name))}}",
+  "originalBottomRow": 480,
+  "originalTopRow": 472,
+  "parentColumnSpace": 20.46875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Submit",
+  "topRow": 472,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kwsxnkc2d3",
+  "widgetName": "submit_button"
+}

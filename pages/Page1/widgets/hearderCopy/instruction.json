@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 302,
+  "bottomRow": 254,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -171,17 +171,21 @@
       "key": "schema.__root_schema__.cellBorderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.instruction.children.instructionInfoList.children.__array_item__.children.instructionList.children.__array_item__.accentColor"
+      "key": "schema.__root_schema__.children.instruction.children.instructionInfoList.children.__array_item__.children.instructionList.children.__array_item__.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.instruction.children.instructionInfoList.children.__array_item__.children.instructionList.children.__array_item__.borderRadius"
+      "key": "schema.__root_schema__.children.instruction.children.instructionInfoList.children.__array_item__.children.instructionList.children.__array_item__.accentColor"
     },
     {
       "key": "schema.__root_schema__.children.instruction.children.instructionInfoList.children.__array_item__.children.instructionList.cellBorderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "fieldLimitExceeded": false,
   "fixedFooter": true,
@@ -198,8 +202,8 @@
   "mobileRightColumn": 10,
   "mobileTopRow": 160,
   "needsErrorInfo": false,
-  "originalBottomRow": 301,
-  "originalTopRow": 155,
+  "originalBottomRow": 254,
+  "originalTopRow": 163,
   "parentColumnSpace": 20.15625,
   "parentId": "0loay80t01",
   "parentRowSpace": 10,
@@ -281,7 +285,7 @@
                           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(instruction.sourceData, instruction.formData, instruction.fieldState)}}",
                           "boxShadow": "none",
                           "children": {},
-                          "dataType": "string",
+                          "dataType": "undefined",
                           "fieldType": "Text Input",
                           "iconAlign": "left",
                           "identifier": "__array_item__",
@@ -290,11 +294,10 @@
                           "isRequired": false,
                           "isSpellCheck": false,
                           "isVisible": true,
-                          "label": "Add Instruction",
+                          "label": "Array Item",
                           "labelTextSize": "0.875rem",
                           "originalIdentifier": "__array_item__",
-                          "position": -1,
-                          "sourceData": "Ensure "
+                          "position": -1
                         }
                       },
                       "dataType": "array",
@@ -309,10 +312,7 @@
                       "labelTextSize": "0.875rem",
                       "originalIdentifier": "instructionList",
                       "position": 1,
-                      "sourceData": [
-                        "Ensure ",
-                        "No "
-                      ]
+                      "sourceData": []
                     },
                     "title": {
                       "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(instruction.sourceData, instruction.formData, instruction.fieldState)}}",
@@ -481,7 +481,7 @@
   },
   "scrollContents": true,
   "showReset": true,
-  "sourceData": " {\"instruction\": {\n        \"title\": \"\",\n        \"description\": \"\",\n        \"instructionInfoList\": [\n            {\n                \"title\": \"\",\n                \"instructionList\": []\n            },\n            {\n                \"title\": \"Submission..\",\n                \"instructionList\": [\n                    \"Ensure \",\n                    \"No \"\n                ]\n            }\n        ]\n    }\n\t\t}",
+  "sourceData": " {\"instruction\": {\n        \"title\": null,\n        \"description\": null,\n        \"instructionInfoList\": [\n            {\n                \"title\":null,\n                \"instructionList\": []\n            }\n        ]\n    }\n\t\t}",
   "submitButtonLabel": "Submit",
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -490,7 +490,7 @@
     "buttonVariant": "PRIMARY"
   },
   "title": "Form",
-  "topRow": 156,
+  "topRow": 163,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": false,
   "version": 1,
