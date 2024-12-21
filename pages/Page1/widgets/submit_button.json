@@ -36,7 +36,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 366,
   "needsErrorInfo": false,
-  "onClick": "{{Button2.setDisabled(false).then(Button2.setLabel(\"Submit\")).then (showModal(Modal1.name))}}",
+  "onClick": "{{Button2.setDisabled(false).then(Button2.setLabel(\"Submit\")).then(dynamictext.setText(\"Please Confirm !!\")).then (showModal(Modal1.name))}}",
   "originalBottomRow": 480,
   "originalTopRow": 472,
   "parentColumnSpace": 20.46875,
